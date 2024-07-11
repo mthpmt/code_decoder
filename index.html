@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge ONE</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="assets/image.png" alt="imagem com a letra A de Alura" />
+    </header>
+
+    <div class="container-main">
+        <div class="container-button">
+            <div class="div-text">
+                <textarea name="texto" class="div-areatexto" id="mensagem" placeholder="Digite seu texto"></textarea>
+            </div>
+
+            <div class="buttons">
+                <img class="exclamation" src="./assets/exclamacao.png" alt="imagem de um ponto de exclamação">
+                <p class="aviso-button">Apenas letras minusculas e sem acento</p>
+                <div class="content-button">
+                    <button onclick="criptografar()" class="botao1">Criptografar</button>
+                    <button onclick="descriptografar()" class="botao2">Descriptografar</button>
+                </div>
+
+            </div>
+        </div>
+        <main>
+            <aside>
+                <div class="image-content">
+                    <img class="imagem-alura" id="imagem-alura" src="assets/Imagem Alura.jpg" alt="imagem-alura">
+                </div>
+
+                <div class="layout-aside">
+                    <span class="mensagem" id="mensagem-inicial">
+                        <h1 class="titulo-aside">Nenhuma mensagem encontrada</h1>
+                        <p class="texto-aside">Digite um texto que você deseja criptografar ou descriptografar</p>
+                    </span>
+                    <div id="resultado" class="resultado-texto"></div>
+                    <button onclick="copiarTexto()" class="botao-copiar" id="botao-copiar" style="display:none;">Copiar</button>
+                </div>
+            </aside>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Matheus Pimenta</p>
+        </footer>
+
+        <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0; padding: 0; text-decoration: none;
+}
+
+body {
+    width: 100%;
+    background-color: #f3f5fc;
+    height: 100vh;
+}
+
+header {
+    margin-top: 20px;
+    margin-left: 20px;   
+}
+
+.logo {
+    width: 40px;
+    height: auto;
+    
+}
+.div-text {
+    padding-top: 4rem;
+    padding-left: 100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: #0A3871;
+}
+.div-areatexto {
+    border: none;
+    background: none;
+    resize: none;
+    font-size: 2rem;
+    color: #0A3871;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+
+aside {
+    padding: 20px;
+    position: relative;
+    width: 350px;
+    height: 800px;
+    background: #FFFFFF;
+    border-radius: 32px;
+    border: 2px solid;
+    bottom: 4rem;
+    right: 1rem;
+}
+
+#resultado {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color:#0A3871;
+    font-family: "Inter", sans-serif;
+}
+
+.botao-copiar{
+    position: relative;
+    left: 15px;
+    top: 40px;
+    width: 328px;
+    height: 67px;
+    color:#0A3871 ;
+    background-color: #D8DFE8;
+    border:solid 2px;
+    border-radius: 24px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+    transition: all 0.3s
+    
+}
+.mensagem {
+    font-size:20px;
+}
+.layout-aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.titulo-aside{
+    display: flex;
+    font-family: "Inter", sans-serif;
+    color: #343A40;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.texto-aside{
+    display: flex;
+    font-family: "Inter", sans-serif;
+    color: #495057;
+    text-align: center;
+    width: 100%;
+    height: 48px;
+}
+
+.imagem-alura {
+    padding-top: 50%;
+    height: 304px;
+    width: 336px;
+}
+.container-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.container-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    margin-left: 6rem;
+    align-items: center;
+}
+
+.content-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 4rem;
+    margin-left: 50%;
+    
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.exclamation-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.exclamation{
+    position: relative;
+    height: 16px;
+    width: 16px;
+    left: 50%;
+    top: 18px;
+
+}
+
+.aviso-button{
+    position: relative;
+    font-family: "Inter", sans-serif;
+    opacity: 50;
+    margin-bottom: 4px;
+    left: 53%;
+}
+
+
+.botao1 {
+    width: 328px;
+    height: 67px;
+    color: #D8DFE8;
+    background-color: #0A3871;
+    border: 2px;
+    border-radius: 24px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+    transition: all 0.3s
+}
+
+.botao2 {
+    width: 328px;
+    height: 67px;
+    color:#0A3871;
+    background-color: #D8DFE8;
+    border: solid 2px;
+    border-radius: 24px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+    transition: all 0.3s
+
+}
+
+.botao1:hover, .botao2:hover, .botao-copiar:hover {
+    background-color: #343A40; 
+    transform: scale(1.05); 
+    color: #FFFFFF;
+}
+
+.botao1:active, .botao2:active, .botao-copiar:active {
+    transform: scale(0.95); 
+    transition: transform .1s;
+}
+
+footer {
+    width: 100%;
+    background-color: #0A3871; 
+    color: #D8DFE8; 
+    text-align: center; 
+    padding: 10px 0; 
+    position: fixed;
+    bottom: 0; 
+    font-family: "Inter", sans-serif;
+}
+
+footer p {
+    margin: 0; 
+    font-size: 16px;
+}
